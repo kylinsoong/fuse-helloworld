@@ -1,0 +1,26 @@
+== What's this?
+
+This project is a hello world project for Fuse.
+
+[source, java]
+.*Build and Run*
+----
+$ cd fuse-helloworld/
+$ mvn clean install
+$ java -jar target/fuse-helloworld-1.0.0.jar
+----
+
+[source, java]
+.*Expected Output in console*
+----
+2019-01-21 16:20:22.253  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:23.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:24.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:25.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:26.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:27.244  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:28.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:29.244  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:30.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+2019-01-21 16:20:31.243  INFO 17951 --- [1 - timer://foo] _route1                                  : Hello World!
+----
